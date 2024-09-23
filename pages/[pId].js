@@ -26,7 +26,7 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { pId: "p1" } },
-      { params: { pid: "p2" } },
+      { params: { pId: "p2" } },
       { params: { pId: "p3" } },
     ],
     fallback: false,
